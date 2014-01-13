@@ -27,7 +27,7 @@
                         echo 'disabled';
                     } ?>">
                         <a href="<?php if (!$prev_id) {
-                            echo 'javascript;';
+                            echo 'javascript:void(0);';
                         } else {
                             echo site_url('news/read') . '/' . $prev_id;
                         } ?>">
@@ -39,7 +39,7 @@
                         echo 'disabled';
                     } ?>">
                         <a href="<?php if (!$next_id) {
-                            echo 'javascript;';
+                            echo 'javascript:void(0);';
                         } else {
                             echo site_url('news/read') . '/' . $next_id;
                         } ?>">
