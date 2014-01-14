@@ -22,7 +22,7 @@
 
 </head>
 
-<body style=" background: url(res/Resources/img/bg.jpg) rgb(245,240,225)">
+<body style=" background: url(res/resources/img/bg.jpg) rgb(245,240,225)">
 <!--顶部==============================-->
 <div class="jumbotron hidden-sm hidden-xs">
     <div class="container visible-lg visible-md">

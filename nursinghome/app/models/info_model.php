@@ -78,6 +78,21 @@ class Info_model extends CI_Model{
         }
     }
 
+    /**
+     * 添加留言信息
+     * @param   $_name  姓名
+     * @param   $_tel       电话
+     * @param   $_email     邮件
+     * @param   $_content   内容
+     * @param   $create_dt  时间
+     * @return bool TRUE OR FALSE
+     */
+    function add_message($_name, $_tel, $_email, $_content, $create_dt){
+        $insert_sql = "INSERT INTO t_message(name,phone_number,email,content,create_dt) VALUES('" . $_name . "','" . $_tel . "','" . $_email . "','" . $_content . "','" . $create_dt . "')";
+        $result = $this->common_model->execQuery($insert_sql, 'default', TRUE);
+        return $result;
+    }
+
 }
 
 /* End of file info_model.php */

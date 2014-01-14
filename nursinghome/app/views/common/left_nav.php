@@ -1,11 +1,11 @@
 <div class="col-sm-3">
 
     <div class="list-group">
-        <a href="#" class="list-group-item" id="left_about"> 简介 </a>
-        <a href="#" class="list-group-item" id="left_charge">收费标准</a>
-        <a href="#" class="list-group-item" id="left_process">入院流程</a>
-        <a href="#" class="list-group-item">联系方式</a>
-        <a href="#" class="list-group-item">在线留言</a>
+        <a href="<?php echo site_url('index/about');?>" class="list-group-item" id="left_about"> 简介 </a>
+        <a href="<?php echo site_url('index/charge');?>" class="list-group-item" id="left_charge">收费标准</a>
+        <a href="<?php echo site_url('index/process');?>" class="list-group-item" id="left_process">入院流程</a>
+        <a href="<?php echo site_url('index/contact');?>" class="list-group-item" id="left_contact">联系方式</a>
+        <a href="<?php echo site_url('index/message');?>" class="list-group-item" id="left_message">在线留言</a>
     </div>
 
     <div class="list-group hidden-sm hidden-xs">
