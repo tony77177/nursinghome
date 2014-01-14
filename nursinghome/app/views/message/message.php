@@ -21,7 +21,7 @@
                         <label class="col-sm-2 control-label">您的联系电话</label>
 
                         <div class="col-sm-10">
-                            <input class="form-control" placeholder="电话号码或者手机号码" type="number" id="msg_tel">
+                            <input class="form-control" placeholder="电话号码或者手机号码" type="text" id="msg_tel">
                         </div>
                     </div>
                     <div class="form-group">
@@ -31,13 +31,6 @@
                             <input class="form-control" placeholder="邮箱地址" type="email" id="msg_email">
                         </div>
                     </div>
-<!--                    <div class="form-group">-->
-<!--                        <label class="col-sm-2 control-label">您的地址</label>-->
-<!---->
-<!--                        <div class="col-sm-10">-->
-<!--                            <input class="form-control" placeholder="清镇市....." type="text">-->
-<!--                        </div>-->
-<!--                    </div>-->
                     <div class="form-group">
                         <label class="col-sm-2 control-label">留言内容</label>
 
