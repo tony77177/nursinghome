@@ -1,13 +1,13 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /**
- * 新闻控制器
+ * 养生常识新闻
  * Created by PhpStorm.
  * User: zhaoyu
- * Date: 14-1-13
- * Time: 下午3:06
+ * Date: 14-1-15
+ * Time: 下午5:03
  */
 
-class News extends CI_Controller{
+class Health_news extends CI_Controller{
 
     private $per_page = 20; //每页显示数据条数
     private $uri_segment = 2; //分页方法自动测定你 URI 的哪个部分包含页数
@@ -24,7 +24,7 @@ class News extends CI_Controller{
     public function index(){
 
         $offset = 0; //偏移量
-        $where = "WHERE type=0";
+        $where = "WHERE type=1";
 
         if ($this->input->get('per_page')) {
             $offset = ((int)$this->input->get('per_page') - 1) * $this->per_page; //计算偏移量
@@ -38,7 +38,7 @@ class News extends CI_Controller{
         $data['pagination'] = $this->pagination->create_links();
 
         $data['news_list'] = $this->news_model->get_news_list($offset, $this->per_page, $where);
-        $this->load->view('news/news', $data);
+        $this->load->view('health_news/health_news', $data);
     }
 
     /**
@@ -60,12 +60,12 @@ class News extends CI_Controller{
                 $_next_id = $this->news_model->get_neighbor_news_info($data['news_info']['create_dt'], FALSE); //下一篇ID
                 $data['next_id'] = $_next_id['id'];
 
-                $this->load->view('news/read', $data);
+                $this->load->view('health_news/read', $data);
             }
         }
     }
 
 }
 
-/* End of file news.php */
-/* Location: ./app/controllers/news.php */
+/* End of file health_news.php */
+/* Location: ./app/controllers/health_news.php */

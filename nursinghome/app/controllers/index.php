@@ -20,9 +20,12 @@ class Index extends CI_Controller{
      * 首页
      */
     public function index(){
-        $this->load->model('info_model','news_model');
+
+        $where = "WHERE type=0";
+
+        $this->load->model('info_model', 'news_model');
         $this->load->library('common_class');
-        $data['news_list'] = $this->news_model->get_news_list($this->offset, $this->per_page);
+        $data['news_list'] = $this->news_model->get_news_list($this->offset, $this->per_page, $where);
         $this->load->view('index/index', $data);
     }
 

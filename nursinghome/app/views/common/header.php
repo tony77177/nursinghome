@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 
-    <title>清镇养老院</title>
+    <title>清镇市老年公寓</title>
     <base href="<?php echo base_url() ?>">
 
     <meta charset="utf-8">

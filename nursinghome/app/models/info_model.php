@@ -16,10 +16,11 @@ class Info_model extends CI_Model{
 
     /**
      * 获取新闻列表总数
+     * @param   $where  条件查询
      * @return mixed    新闻总条数
      */
-    function get_news_total_num(){
-        $sql = "SELECT COUNT(*) AS num FROM t_news";
+    function get_news_total_num($where=NULL){
+        $sql = "SELECT COUNT(*) AS num FROM t_news $where";
         $count = $this->common_model->getTotalNum($sql, 'default');
         return $count;
     }

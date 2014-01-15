@@ -164,6 +164,5 @@
 <script>
     $(document).ready(function () {
         $("#contact").attr('class', 'active');
-        $("#left_contact").addClass("active");
     });
 </script>
