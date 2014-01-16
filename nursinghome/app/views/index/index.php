@@ -16,7 +16,7 @@
         </ol>
         <div class="carousel-inner" style="border-radius:4px">
             <div class="item"><img style=" width:100%; height:350px; border-radius:4px" src="res/images/1.jpg"></div>
-            <div class="item"><img style=" width:100%; height:350px; border-radius:4px" src="res/images/2.jpg"></div>
+<!--            <div class="item"><img style=" width:100%; height:350px; border-radius:4px" src="res/images/2.jpg"></div>-->
             <div class="item active"><img style=" width:100%; height:350px; border-radius:4px" src="res/images/3.jpg"></div>
         </div>
         <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span

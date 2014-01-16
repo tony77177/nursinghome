@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-sm-9" style=" color:#666">
                 <p>Copyright (C) 2013 贵阳市清镇市老年公寓 All Rights Reserved.</p>
-                <p>联系人：王院长　 联系电话：13885103148，13984076226</p>
+                <p>联系人：王院长 13885103148 &emsp; 王主任 13984076226</p>
                 <p>公寓地址：贵州省贵阳市清镇市地质路（115地质队旁）</p>
             </div>
             <div class="col-sm-3 hidden-xs hidden-sm"><img src="res/resources/img/top3.png"></div>

@@ -42,7 +42,7 @@
                                                     <div class="box_m_m">
                                                         <div id="onlineQQ" class="online_tab_c"> <small class="sanjiao"></small><small class="tab_close"></small>
                                                             <dl>
-                                                                <dt>院长 </dt>
+                                                                <dt>&emsp; </dt>
                                                                 <dd> <a target="_blank" href="http://wpa.qq.com/msgrd?V=1&Uin=642160001&Site=www.baiduo&Menu=yes"><img border="0" src="res/resources/img/pa.jpg" alt="点击这里给我发消息" title="点击这里给我发消息"/></a> </dd>
                                                             </dl>
                                                         </div>
