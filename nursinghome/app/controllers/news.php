@@ -54,10 +54,11 @@ class News extends CI_Controller{
                 redirect('index');
             } else {
 
-                $_prev_id = $this->news_model->get_neighbor_news_info($data['news_info']['create_dt']); //上一篇ID
+                $where = "AND type=0";
+                $_prev_id = $this->news_model->get_neighbor_news_info($data['news_info']['create_dt'], $where); //上一篇ID
                 $data['prev_id'] = $_prev_id['id'];
 
-                $_next_id = $this->news_model->get_neighbor_news_info($data['news_info']['create_dt'], FALSE); //下一篇ID
+                $_next_id = $this->news_model->get_neighbor_news_info($data['news_info']['create_dt'], $where, FALSE); //下一篇ID
                 $data['next_id'] = $_next_id['id'];
 
                 $this->load->view('news/read', $data);

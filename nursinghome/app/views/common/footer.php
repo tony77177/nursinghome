@@ -39,7 +39,10 @@
 <div id="messageBoardContainer" class="hidden-sm hidden-xs">
     <div id="messageBoard">
         <div class="wrap">
-            <div class="content"> <a href="javascript:if(g_fnQuirkyPopupClose){g_fnQuirkyPopupClose()};" title="关闭" class="cose" rel="nofollow"> </a> <a href="http://sighttp.qq.com/authd?IDKEY=1234567" title="点击联系客服 QQ:1234567" class="qq " rel="nofollow"> </a></div>
+            <div class="content"><a href="javascript:if(g_fnQuirkyPopupClose){g_fnQuirkyPopupClose()};" title="关闭"
+                                    class="cose" rel="nofollow"> </a> <a
+                    href="http://wpa.qq.com/msgrd?V=1&Uin=642160001&Site=www.baiduo&Menu=yes"
+                    title="点击联系客服 QQ:642160001" class="qq " rel="nofollow"> </a></div>
         </div>
     </div>
     <a href="javascript:;" id="quirkyPopupShowBtn" rel="nofollow"></a></div>

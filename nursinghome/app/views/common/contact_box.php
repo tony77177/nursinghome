@@ -13,8 +13,8 @@
                                     <div id="online_tel_icon" class="online_icon"> <span class="pic"><img src="res/resources/img/online_tel.png" /></span> <span class="name">&#30005;&#35805;&#30452;&#21628;</span> </div>
                                     <div id="online_qq_icon" class="online_icon"> <span class="pic"><img src="res/resources/img/online_qq.png" /></span> <span class="name">&#22312;&#32447;&#23458;&#26381;</span> </div>
                                     <div id="online_message_icon" class="online_icon"> <span class="pic"><img src="res/resources/img/online_message.png" /></span> <span class="name">&#22312;&#32447;&#30041;&#35328;</span> </div>
-                                    <div id="online_email_icon" class="online_icon"> <span class="pic"><a href="mailto:1234567@qq.com"><img src="res/resources/img/online_email.png" /></a></span> <span class="name">&#21457;&#36865;&#37038;&#20214;</span> </div>
-                                    <div id="online_address_icon" class="online_icon"> <span class="pic"><a href=""><img src="res/resources/img/online_address.png" /></a></span> <span class="name">&#20225;&#19994;&#22320;&#26631;</span> </div>
+                                    <div id="online_email_icon" class="online_icon"> <span class="pic"><a href="mailto:642160001@qq.com"><img src="res/resources/img/online_email.png" /></a></span> <span class="name">&#21457;&#36865;&#37038;&#20214;</span> </div>
+                                    <div id="online_address_icon" class="online_icon"> <span class="pic"><a href="<?php echo site_url('index/contact');?>"><img src="res/resources/img/online_address.png" /></a></span> <span class="name">&#20225;&#19994;&#22320;&#26631;</span> </div>
                                     <div id="onlineTelTab" class="online_tab">
                                         <div class="online_boxs">
                                             <div class="boxs_t"><span class="boxs_t_l"></span><span class="boxs_t_m"></span><span class="boxs_t_r"></span></div>
@@ -24,8 +24,8 @@
                                                         <div id="onlineTel" class="online_tab_c"> <small class="sanjiao"></small><small class="tab_close"></small>
                                                             <dl>
                                                                 <dt><strong>&#32852;&#31995;&#25105;&#20204;：</strong></dt>
-                                                                <dd><strong>&#32852;&#31995;&#20154;：</strong><span>王宝强</span></dd>
-                                                                <dd><strong>&#30005;&#35805;：</strong><span>13000130005</span></dd>
+                                                                <dd><strong>&#32852;&#31995;&#20154;：</strong><span>王院长</span></dd>
+                                                                <dd><strong>&#30005;&#35805;：</strong><span>13885103148</span></dd>
                                                             </dl>
                                                         </div>
                                                     </div>
@@ -42,10 +42,8 @@
                                                     <div class="box_m_m">
                                                         <div id="onlineQQ" class="online_tab_c"> <small class="sanjiao"></small><small class="tab_close"></small>
                                                             <dl>
-                                                                <dt>经理 </dt>
-                                                                <dd> <a target="_blank" href="#"><img border="0" src="http://wpa.qq.com/pa?p=2:1234567:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a> </dd>
-                                                                <dt>销售 </dt>
-                                                                <dd> <a target="_blank" href="#"><img border="0" src="http://wpa.qq.com/pa?p=2:1234567:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a> </dd>
+                                                                <dt>院长 </dt>
+                                                                <dd> <a target="_blank" href="http://wpa.qq.com/msgrd?V=1&Uin=642160001&Site=www.baiduo&Menu=yes"><img border="0" src="res/resources/img/pa.jpg" alt="点击这里给我发消息" title="点击这里给我发消息"/></a> </dd>
                                                             </dl>
                                                         </div>
                                                     </div>

@@ -60,14 +60,15 @@ class Info_model extends CI_Model{
      * 获取相邻新闻列表
      * @param   $_curr_dt 当前时间
      * @param   $flag       标志位，默认取上一篇新闻ID
+     * @param   $where      条件查询
      * @return mixed            结果集
      */
-    function get_neighbor_news_info($_curr_dt, $flag = TRUE){
+    function get_neighbor_news_info($_curr_dt, $where = NULL, $flag = TRUE){
 
         if ($flag) {
-            $info_sql = "SELECT id FROM t_news WHERE create_dt>'" . $_curr_dt . "' ORDER BY create_dt ASC LIMIT 1";
+            $info_sql = "SELECT id FROM t_news WHERE create_dt>'" . $_curr_dt . "' $where ORDER BY create_dt ASC LIMIT 1";
         } else {
-            $info_sql = "SELECT id FROM t_news WHERE create_dt<'" . $_curr_dt . "' ORDER BY create_dt DESC LIMIT 1";
+            $info_sql = "SELECT id FROM t_news WHERE create_dt<'" . $_curr_dt . "' $where ORDER BY create_dt DESC LIMIT 1";
         }
 
         $result = $this->common_model->getDataList($info_sql, 'default');

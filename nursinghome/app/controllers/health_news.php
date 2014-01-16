@@ -9,7 +9,7 @@
 
 class Health_news extends CI_Controller{
 
-    private $per_page = 20; //每页显示数据条数
+    private $per_page = 5; //每页显示数据条数
     private $uri_segment = 2; //分页方法自动测定你 URI 的哪个部分包含页数
 
     function __construct(){
@@ -33,7 +33,7 @@ class Health_news extends CI_Controller{
         $count = $this->news_model->get_news_total_num($where); //总条数
 
         //初始化分页数据
-        $config = $this->common_class->getPageConfigInfo('/news/?', $count, $this->per_page, $this->uri_segment);
+        $config = $this->common_class->getPageConfigInfo('/health_news/?', $count, $this->per_page, $this->uri_segment);
         $this->pagination->initialize($config);
         $data['pagination'] = $this->pagination->create_links();
 
@@ -54,10 +54,11 @@ class Health_news extends CI_Controller{
                 redirect('index');
             } else {
 
-                $_prev_id = $this->news_model->get_neighbor_news_info($data['news_info']['create_dt']); //上一篇ID
+                $where = "AND type=1";
+                $_prev_id = $this->news_model->get_neighbor_news_info($data['news_info']['create_dt'], $where); //上一篇ID
                 $data['prev_id'] = $_prev_id['id'];
 
-                $_next_id = $this->news_model->get_neighbor_news_info($data['news_info']['create_dt'], FALSE); //下一篇ID
+                $_next_id = $this->news_model->get_neighbor_news_info($data['news_info']['create_dt'], $where, FALSE); //下一篇ID
                 $data['next_id'] = $_next_id['id'];
 
                 $this->load->view('health_news/read', $data);

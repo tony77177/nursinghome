@@ -3,7 +3,7 @@
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">清镇市老年公寓</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-            <a class="navbar-brand" href="#">清镇市老年公寓</a> </div>
+            <a class="navbar-brand" href="<?php echo site_url();?>">清镇市老年公寓</a> </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li id="index"><a href="<?php echo site_url('index');?>"><span class="glyphicon glyphicon-home"></span>&nbsp;首页</a></li>
