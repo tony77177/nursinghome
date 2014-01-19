@@ -218,6 +218,12 @@
                                         class="img-responsive" src="res/images/02/011.jpg" alt="综合楼外景" title="综合楼外景"/> </a> </span>
                         </div>
                     </li>
+					<li class=" col-sm-4 portfolio-item2" data-id="id-36" data-type="cat-item-2">
+                        <div><span class="image-block"> <a class="res/image-zoom" href="res/images/02/12.jpg"
+                                                           rel="prettyPhoto[gallery]" title="综合楼外景2"><img
+                                        class="img-responsive" src="res/images/02/012.jpg" alt="综合楼外景2" title="综合楼外景2"/> </a> </span>
+                        </div>
+                    </li>
                     <li class=" col-sm-4 portfolio-item2" data-id="id-35" data-type="cat-item-4">
                         <div><span class="image-block"> <a class="res/image-zoom" href="res/images/04/08.jpg"
                                                            rel="prettyPhoto[gallery]" title="阅览室1"><img
