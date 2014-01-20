@@ -13,6 +13,15 @@
 </div>
 <!--底部end==============================-->
 
+<!-- baidu stat start-->
+<div style="display: none;">
+    <script type="text/javascript">
+        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F5bbd334e4bc86816a6f9f26495cfa0b7' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+</div>
+<!--baidu stat end -->
+
 <!--连接js===================================================================================-->
 <script src="res/resources/js/jquery.js"></script>
 <script src="res/bootstrap/js/bootstrap.js"></script>
